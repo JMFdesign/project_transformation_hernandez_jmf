@@ -316,7 +316,7 @@ aside a:hover {
 /* Three Column Footer Content */
 #footer-content {
     overflow: hidden;
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     color: #d6e2f0;
 }
@@ -425,8 +425,8 @@ footer a {
 
 #banner {
     margin: 0 auto;
-    width: 1000px;
-    height: 340px;
+    width: 100%;
+    height: auto;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
