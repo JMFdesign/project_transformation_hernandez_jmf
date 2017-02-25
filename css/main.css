@@ -142,6 +142,10 @@ article {
     border-bottom: 1px solid #e7ebed;
 }
 
+article p {
+    font-size: 1.2em;
+}
+
 article
 .title {
     padding: 7px 0 0 0;
@@ -260,6 +264,7 @@ aside p {
     margin: 0 0;
     padding: 0 30px 20px 30px;
     text-align: justify;
+    font-size: 1.2em;
 }
 
 aside a {
@@ -292,7 +297,7 @@ aside a:hover {
     margin: 0;
     padding: 0 0 20px 0;
     letter-spacing: -1px;
-    font-size: 26px;
+    font-size: 1.8em;
     color: #262626;
 }
 
@@ -326,17 +331,16 @@ aside a:hover {
 /* Footer */
 footer {
     margin: 0 auto;
-    padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
     background: #050505 url(../img/img01.jpg) repeat;
 }
 
 footer p {
     margin: 0;
-    padding-top: 10px;
+    padding: 30px 0;
     letter-spacing: 1px;
     line-height: normal;
-    font-size: 14px;
+    font-size: 1.5em;
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
