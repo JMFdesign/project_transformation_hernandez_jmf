@@ -313,23 +313,6 @@ aside a:hover {
     text-decoration: underline;
 }
 
-/* Calendar */
-#calendar_wrap {
-    padding: 20px;
-}
-
-#calendar table {
-    width: 100%;
-}
-
-#calendar tbody td {
-    text-align: center;
-}
-
-#calendar #next {
-    text-align: right;
-}
-
 /* Three Column Footer Content */
 #footer-content {
     overflow: hidden;
