@@ -220,9 +220,9 @@ article
 
 /* Sidebar */
 aside {
-    width: 80%;
+    width: 100%;
     padding: 10px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 aside ul {
@@ -231,24 +231,24 @@ aside ul {
     list-style: none;
 }
 
-aside li {
+aside ul li {
     margin-left: 5px;
     padding: 0;
 }
 
-aside li ul {
+aside ul li ul {
     margin: 0 0;
     padding-bottom: 30px;
 }
 
-aside li li {
+aside ul li li {
     line-height: 40px;
     border-bottom: 1px solid #e7ebed;
     margin: 0 0;
     border-left: none;
 }
 
-aside li li span {
+aside ul li li span {
     display: block;
     margin-top: -20px;
     padding: 0;
@@ -256,9 +256,13 @@ aside li li span {
     font-style: italic;
 }
 
-aside li li a {
-    padding: 0 0 0 20px;
+aside ul li li a {
+    padding: 0 0 0 10px;
     background: url(../img/img04.jpg) no-repeat left 50%;
+}
+
+aside ul li ul {
+    width: 100%;
 }
 
 aside h2 {
@@ -281,6 +285,13 @@ aside a {
 
 aside a:hover {
     text-decoration: underline;
+}
+
+@media all and (min-width: 600px) {
+    aside ul {
+        width: calc(100% / 3.2);
+        display: inline-block;
+    }
 }
 
 /* Three Column Footer Content */
