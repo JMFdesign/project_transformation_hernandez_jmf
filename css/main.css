@@ -199,7 +199,8 @@ article
 .more {
     display: block;
     padding: 5px 5px;
-    margin: 10px;
+    margin: 10px auto;
+    max-width: 600px;
     background: #222222;
     color: #ffffff;
     text-align: center;
@@ -209,7 +210,8 @@ article
 .comments {
     display: block;
     padding: 5px 5px;
-    margin: 10px;
+    margin: 10px auto;
+    max-width: 600px;
     background: #222222;
     color: #ffffff;
     text-align: center;
