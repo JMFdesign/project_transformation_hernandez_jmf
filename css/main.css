@@ -135,26 +135,26 @@ section {
     padding: 0 0 0 0;
 }
 
-.post {
+article {
     overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #e7ebed;
 }
 
-.post
+article
 .title {
     padding: 7px 0 0 0;
     letter-spacing: -1px;
 }
 
-.post
+article
 .title a {
     border: none;
     text-decoration: none;
     color: #222222;
 }
 
-.post
+article
 .meta {
     margin-bottom: 30px;
     padding: 10px 0 0 0;
@@ -164,17 +164,17 @@ section {
     font-weight: 300;
 }
 
-.post
+article
 .meta
 .date {
 }
 
-.post
+article
 .meta
-.posted {
+articleed {
 }
 
-.post
+article
 .entry {
     padding: 0 0 40px 0;
     text-align: justify;
