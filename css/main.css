@@ -82,7 +82,6 @@ h1 a {
 /* Splash */
 #splash {
     width: 960px;
-    height: 300px;
     margin: 0 auto;
 }
 
@@ -126,7 +125,6 @@ h1 a {
 /* Menu */
 nav {
     width: 500px;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
@@ -292,7 +290,6 @@ aside li li a {
 }
 
 aside h2 {
-    height: 38px;
     padding: 0 0 30px 0;
     letter-spacing: -0.5px;
     font-size: 1.8em;
@@ -368,7 +365,6 @@ aside a:hover {
 
 /* Footer */
 footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
@@ -413,7 +409,6 @@ footer a {
 #marketing .text2 a {
     display: block;
     width: 252px;
-    height: 38px;
     padding: 15px 0 0 0;
     background: url(../img/img07.jpg) no-repeat left top;
     letter-spacing: -2px;
